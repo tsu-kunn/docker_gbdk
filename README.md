@@ -9,6 +9,8 @@ GB開発環境 [gbdk-2.96 for Raspberry Pi](https://cubic-style.jp/gbdev/) の d
 GB開発環境 [gbdk-2020](https://github.com/gbdk-2020/gbdk-2020) の docker image を作成します。\
 公式の配布は Linux for x64 のものしかないため、ビルドから作成するため時間と容量がかかります。
 
+※現在 make がうまくいかず悪戦苦闘中
+
 ## その他
 今さらGBの開発といわれそうですが、Raspbyrry Pi 4B を活用したいのとプログラミングしたい欲求を満たすのに、\
 一番思い入れがあり、一番遊んだハードを選びました。未だにHomebrewに動きがあるのも決めての一つ。\
