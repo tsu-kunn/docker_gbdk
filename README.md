@@ -26,3 +26,9 @@ PSPの開発環境を作成するDockerfile。SDKを一からビルドするた�
 またDocker Imageサイズも5GB弱となるので、microSDのサイズが小さい場合は注意が必要。 \
 Docker Image作成で満足してしまい、サンプルビルドまでは試してないので不足があるかも？
 
+## gba_nds
+GBA/NDSの開発環境どんなものなんだろうと調べていたら、docker imageが公開されており、 \
+簡単に環境構築ができたのでそのメモを追加。
+
+サンプルなどは [devkitPro](https://github.com/devkitPro) にあります。 \
+docker image の情報は [ここ](https://hub.docker.com/r/devkitpro/devkitarm) 。
