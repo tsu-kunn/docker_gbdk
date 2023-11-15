@@ -34,3 +34,14 @@ docker imageに入ってから `gba-exapmles` or `nds-exapmles` のディレク�
 $ cd nds-examples
 $ make -j4
 ```
+
+## スクリプトで実行
+docker image の中に入って `make` を実行するのではなく、スクリプトを使って `make` を実行する。 \
+`docker-devkitpro.sh` をパスが通っているディレクトリにコピーするか、参照して実行する。
+
+### 実行例
+
+```bash
+$ cd Graphics/3D/Textured_Cube/
+$ ~/docker_gbdk/gba_nds/docker-devkitpro.sh make
+```
