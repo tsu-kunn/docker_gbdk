@@ -10,6 +10,7 @@ docker container run \
     -u $(id -u $SUDO_USER):$(id -g $SUDO_USER) \
     -e DEBIAN_FRONTEND=noninteractive \
     -v `pwd`/:/home/ubuntu/pspwork/ \
+    -w /home/ubuntu/pspwork/ \
     ${TAG_NAME:="pspdev"} \
     ${EXEC_CMD}
 
