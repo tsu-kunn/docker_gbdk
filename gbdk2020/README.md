@@ -26,3 +26,12 @@ docker imageに入ってから以下を実行。
 $ cd /opt/gbdk/examples/gb
 $ make -j4
 ```
+
+### スクリプトで実行
+docker image の中に入って make を実行するのではなく、スクリプトを使って make を実行する。 \
+`docker-gbdk.sh` をパスが通っているディレクトリにコピーするか、参照して実行する。
+
+```bash
+$ cd /opt/gbdk/examples/gb
+$ ~/docker_gbdk/gbdk2020/docker-gbdk.sh make -j4
+```
