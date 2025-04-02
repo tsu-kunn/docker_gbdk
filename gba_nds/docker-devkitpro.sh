@@ -2,7 +2,7 @@
 
 SUDO_USER=$(/usr/bin/logname)
 EXEC_CMD=${@:-/bin/bash}
-HOME_DIR="/home/ubuntu/works/"
+HOME_DIR="/home/ubuntu/$(basename `pwd`)/"
 
 test -t 1 && USE_INTERACTIVE="--interactive"
 test -t 1 && USE_TTY="--tty"
