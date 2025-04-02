@@ -27,7 +27,7 @@ docker run -it --rm -v `pwd`/:/home/ubuntu/works/ -u ${UID}:$(id -g) devkitpro/d
 
 ### サンプルのビルド
 docker imageに入ってから `wii-examples` のディレクトリに移動後、 `make -j4` を実行。 \
-各サンプルに `.gba` が作成される。
+各サンプルに `.dol` が作成される。
 
 ```bash
 $ cd nds-examples
