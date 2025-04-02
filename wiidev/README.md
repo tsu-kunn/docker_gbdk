@@ -42,5 +42,5 @@ docker image の中に入って `make` を実行するのではなく、スク�
 
 ```bash
 $ cd wii-examples/graphics/gx
-$ ~/docker_gbdk/docker-devkitppc.sh make
+$ ~/docker_gbdk/wiidev/docker-devkitppc.sh make -j4
 ```
