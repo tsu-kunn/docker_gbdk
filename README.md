@@ -35,7 +35,8 @@ docker image の情報は [ここ](https://hub.docker.com/r/devkitpro/devkitarm)
 
 ## wiidev
 Wiiの開発環境どんなものなんだろうと調べていたら、docker imageが公開されており、 \
-簡単に環境構築ができたのでそのメモを追加。
+簡単に環境構築ができたのでそのメモを追加。 \
+Docker Imageサイズが 1.47GB あるので容量に注意。
 
 サンプルは [wii-examples](https://github.com/devkitPro/wii-examples) にあります。 \
 docker image の情報は [ここ](https://hub.docker.com/r/devkitpro/devkitppc) 。 \
